@@ -125,7 +125,7 @@ for (adr in adrs) {
         print(pids)
         for (pid in pids) {
           print(pid)
-          #getJeans(adr, ci, med, description, pid)
+          #getJeans(adr, ci, med, "PP", pid)
         }
       }
       }, warning = function(w) {
@@ -148,7 +148,7 @@ for (adr in adrs) {
         pids <- readVec(pidsSNP.fn)
         for (pid in pids) {
           print(pid)
-          #getJeans(adr, ci, med, description, pid)
+          #getJeans(adr, ci, med, "SNPS", pid)
         }
       }
       }, warning = function(w) {
@@ -161,5 +161,4 @@ for (adr in adrs) {
     }
   }
 }
-
 
